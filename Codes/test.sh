@@ -1,17 +1,24 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]
+then
+	echo "bash test.sh <peer number>"
+	exit 0
+fi
+
 
 testPeer=$1
 
-#dir="$testPeer"test-"$(date +%s%N | cut -b1-13)"
-dir="$testPeer"test
-rm -rf 2test
+dir="$testPeer"test-"$(date +%s%N | cut -b1-13)"
+#dir="$testPeer"test
 
 #waitsec=$(echo "$testPeer*2" | bc -l )
-waitsec=$(($testPeer * 2))
+waitsec=$(($testPeer + 8))
 
 cleanup(){
   pkill -f peer.py
   pkill -f indexserver.py
-  rm -r p1/16MB*.txt
+  rm -r p1/32MB*.txt
   rm -r logs/*
   sudo sync
   sudo echo "3" | sudo tee /proc/sys/vm/drop_caches
@@ -21,25 +28,25 @@ startp1(){
 python3 peer.py << INPUTONE
 1
 2
-16MB-1.txt
+32MB-1.txt
 2
-16MB-2.txt
+32MB-2.txt
 2
-16MB-3.txt
+32MB-3.txt
 2
-16MB-4.txt
+32MB-4.txt
 2
-16MB-5.txt
+32MB-5.txt
 2
-16MB-6.txt
+32MB-6.txt
 2
-16MB-7.txt
+32MB-7.txt
 2
-16MB-8.txt
+32MB-8.txt
 2
-16MB-9.txt
+32MB-9.txt
 2
-16MB-10.txt
+32MB-10.txt
 4
 INPUTONE
 }
@@ -78,25 +85,25 @@ sleep $waitsec
 python3 peer.py << INPUTONE
 1
 2
-16MB-1.txt
+32MB-1.txt
 2
-16MB-2.txt
+32MB-2.txt
 2
-16MB-3.txt
+32MB-3.txt
 2
-16MB-4.txt
+32MB-4.txt
 2
-16MB-5.txt
+32MB-5.txt
 2
-16MB-6.txt
+32MB-6.txt
 2
-16MB-7.txt
+32MB-7.txt
 2
-16MB-8.txt
+32MB-8.txt
 2
-16MB-9.txt
+32MB-9.txt
 2
-16MB-10.txt
+32MB-10.txt
 4
 INPUTONE
 

@@ -1,0 +1,405 @@
+===================== Peer 3 Logging Start =====================
+You are now registered at server.
+
+Your peer is binded: host=127.0.1.1, port=60003
+
+Peer connect: addr=('127.0.0.1', 57572)
+
+32MB-1.txt send to ('127.0.0.1', 57572): chunk number= 1 time=1617861112.0249023
+
+('127.0.0.1', 57572) download completed.
+
+Requested download 1 times
+
+Average response time: 1.5721235275268555
+
+Peer connect: addr=('127.0.0.1', 57580)
+
+32MB-1.txt send to ('127.0.0.1', 57580): chunk number= 5 time=1617861112.1374874
+
+('127.0.0.1', 57580) download completed.
+
+Requested download 2 times
+
+Average response time: 0.8416886329650879
+
+Peer connect: addr=('127.0.0.1', 57588)
+
+32MB-1.txt send to ('127.0.0.1', 57588): chunk number= 9 time=1617861112.2464912
+
+('127.0.0.1', 57588) download completed.
+
+Requested download 3 times
+
+Average response time: 0.5968662103017172
+
+Peer connect: addr=('127.0.0.1', 57598)
+
+32MB-1.txt send to ('127.0.0.1', 57598): chunk number= 13 time=1617861112.3458993
+
+('127.0.0.1', 57598) download completed.
+
+Requested download 4 times
+
+Average response time: 0.47224491834640503
+
+Peer connect: addr=('127.0.0.1', 57602)
+
+32MB-2.txt send to ('127.0.0.1', 57602): chunk number= 1 time=1617861115.9155583
+
+('127.0.0.1', 57602) download completed.
+
+Requested download 5 times
+
+Average response time: 0.873850679397583
+
+Peer connect: addr=('127.0.0.1', 57612)
+
+32MB-2.txt send to ('127.0.0.1', 57612): chunk number= 5 time=1617861116.0381677
+
+('127.0.0.1', 57612) download completed.
+
+Requested download 6 times
+
+Average response time: 0.7484368880589803
+
+Peer connect: addr=('127.0.0.1', 57620)
+
+32MB-2.txt send to ('127.0.0.1', 57620): chunk number= 9 time=1617861116.1601877
+
+('127.0.0.1', 57620) download completed.
+
+Requested download 7 times
+
+Average response time: 0.6587707315172467
+
+Peer connect: addr=('127.0.0.1', 57628)
+
+32MB-2.txt send to ('127.0.0.1', 57628): chunk number= 13 time=1617861116.277441
+
+('127.0.0.1', 57628) download completed.
+
+Requested download 8 times
+
+Average response time: 0.5909194946289062
+
+Peer connect: addr=('127.0.0.1', 57636)
+
+32MB-3.txt send to ('127.0.0.1', 57636): chunk number= 1 time=1617861119.9214375
+
+('127.0.0.1', 57636) download completed.
+
+Requested download 9 times
+
+Average response time: 0.8231405946943495
+
+Peer connect: addr=('127.0.0.1', 57644)
+
+32MB-3.txt send to ('127.0.0.1', 57644): chunk number= 5 time=1617861120.0495057
+
+('127.0.0.1', 57644) download completed.
+
+Requested download 10 times
+
+Average response time: 0.7535057306289673
+
+Peer connect: addr=('127.0.0.1', 57652)
+
+32MB-3.txt send to ('127.0.0.1', 57652): chunk number= 9 time=1617861120.2054393
+
+('127.0.0.1', 57652) download completed.
+
+Requested download 11 times
+
+Average response time: 0.6990917812694203
+
+Peer connect: addr=('127.0.0.1', 57660)
+
+32MB-3.txt send to ('127.0.0.1', 57660): chunk number= 13 time=1617861120.3562763
+
+('127.0.0.1', 57660) download completed.
+
+Requested download 12 times
+
+Average response time: 0.6533102591832479
+
+Peer connect: addr=('127.0.0.1', 57668)
+
+32MB-4.txt send to ('127.0.0.1', 57668): chunk number= 1 time=1617861123.2871296
+
+('127.0.0.1', 57668) download completed.
+
+Requested download 13 times
+
+Average response time: 0.7971818447113037
+
+Peer connect: addr=('127.0.0.1', 57676)
+
+32MB-4.txt send to ('127.0.0.1', 57676): chunk number= 5 time=1617861123.398424
+
+('127.0.0.1', 57676) download completed.
+
+Requested download 14 times
+
+Average response time: 0.7480997017451695
+
+Peer connect: addr=('127.0.0.1', 57684)
+
+32MB-4.txt send to ('127.0.0.1', 57684): chunk number= 9 time=1617861123.5073967
+
+('127.0.0.1', 57684) download completed.
+
+Requested download 15 times
+
+Average response time: 0.7054142475128173
+
+Peer connect: addr=('127.0.0.1', 57692)
+
+32MB-4.txt send to ('127.0.0.1', 57692): chunk number= 13 time=1617861123.6129098
+
+('127.0.0.1', 57692) download completed.
+
+Requested download 16 times
+
+Average response time: 0.6678534001111984
+
+Peer connect: addr=('127.0.0.1', 57700)
+
+32MB-5.txt send to ('127.0.0.1', 57700): chunk number= 1 time=1617861126.025396
+
+('127.0.0.1', 57700) download completed.
+
+Requested download 17 times
+
+Average response time: 0.7184473767000086
+
+Peer connect: addr=('127.0.0.1', 57708)
+
+32MB-5.txt send to ('127.0.0.1', 57708): chunk number= 5 time=1617861126.1372497
+
+('127.0.0.1', 57708) download completed.
+
+Requested download 18 times
+
+Average response time: 0.6845507886674669
+
+Peer connect: addr=('127.0.0.1', 57714)
+
+32MB-5.txt send to ('127.0.0.1', 57714): chunk number= 9 time=1617861126.2466266
+
+('127.0.0.1', 57714) download completed.
+
+Requested download 19 times
+
+Average response time: 0.6542149593955592
+
+Peer connect: addr=('127.0.0.1', 57724)
+
+32MB-5.txt send to ('127.0.0.1', 57724): chunk number= 13 time=1617861126.3574085
+
+('127.0.0.1', 57724) download completed.
+
+Requested download 20 times
+
+Average response time: 0.6269550919532776
+
+Peer connect: addr=('127.0.0.1', 57732)
+
+32MB-6.txt send to ('127.0.0.1', 57732): chunk number= 1 time=1617861130.0321703
+
+('127.0.0.1', 57732) download completed.
+
+Requested download 21 times
+
+Average response time: 0.7222237132844471
+
+Peer connect: addr=('127.0.0.1', 57740)
+
+32MB-6.txt send to ('127.0.0.1', 57740): chunk number= 5 time=1617861130.1993766
+
+('127.0.0.1', 57740) download completed.
+
+Requested download 22 times
+
+Average response time: 0.6946872581135143
+
+Peer connect: addr=('127.0.0.1', 57748)
+
+32MB-6.txt send to ('127.0.0.1', 57748): chunk number= 9 time=1617861130.3174155
+
+('127.0.0.1', 57748) download completed.
+
+Requested download 23 times
+
+Average response time: 0.6695735039918319
+
+Peer connect: addr=('127.0.0.1', 57756)
+
+32MB-6.txt send to ('127.0.0.1', 57756): chunk number= 13 time=1617861130.427252
+
+('127.0.0.1', 57756) download completed.
+
+Requested download 24 times
+
+Average response time: 0.6461979250113169
+
+Peer connect: addr=('127.0.0.1', 57762)
+
+32MB-7.txt send to ('127.0.0.1', 57762): chunk number= 1 time=1617861134.8887396
+
+('127.0.0.1', 57762) download completed.
+
+Requested download 25 times
+
+Average response time: 0.7320535850524902
+
+Peer connect: addr=('127.0.0.1', 57772)
+
+32MB-7.txt send to ('127.0.0.1', 57772): chunk number= 5 time=1617861135.006965
+
+('127.0.0.1', 57772) download completed.
+
+Requested download 26 times
+
+Average response time: 0.7084045868653518
+
+Peer connect: addr=('127.0.0.1', 57780)
+
+32MB-7.txt send to ('127.0.0.1', 57780): chunk number= 9 time=1617861135.1480775
+
+('127.0.0.1', 57780) download completed.
+
+Requested download 27 times
+
+Average response time: 0.6873587149160879
+
+Peer connect: addr=('127.0.0.1', 57788)
+
+32MB-7.txt send to ('127.0.0.1', 57788): chunk number= 13 time=1617861135.2985106
+
+('127.0.0.1', 57788) download completed.
+
+Requested download 28 times
+
+Average response time: 0.6681257230894906
+
+Peer connect: addr=('127.0.0.1', 57794)
+
+32MB-8.txt send to ('127.0.0.1', 57794): chunk number= 1 time=1617861137.426385
+
+('127.0.0.1', 57794) download completed.
+
+Requested download 29 times
+
+Average response time: 0.7099857083682356
+
+Peer connect: addr=('127.0.0.1', 57804)
+
+32MB-8.txt send to ('127.0.0.1', 57804): chunk number= 5 time=1617861137.5341144
+
+('127.0.0.1', 57804) download completed.
+
+Requested download 30 times
+
+Average response time: 0.689870556195577
+
+Peer connect: addr=('127.0.0.1', 57812)
+
+32MB-8.txt send to ('127.0.0.1', 57812): chunk number= 9 time=1617861137.6471226
+
+('127.0.0.1', 57812) download completed.
+
+Requested download 31 times
+
+Average response time: 0.6712248786803214
+
+Peer connect: addr=('127.0.0.1', 57820)
+
+32MB-8.txt send to ('127.0.0.1', 57820): chunk number= 13 time=1617861137.7851684
+
+('127.0.0.1', 57820) download completed.
+
+Requested download 32 times
+
+Average response time: 0.6545295640826225
+
+Peer connect: addr=('127.0.0.1', 57828)
+
+32MB-9.txt send to ('127.0.0.1', 57828): chunk number= 1 time=1617861140.040127
+
+('127.0.0.1', 57828) download completed.
+
+Requested download 33 times
+
+Average response time: 0.6888939467343417
+
+Peer connect: addr=('127.0.0.1', 57836)
+
+32MB-9.txt send to ('127.0.0.1', 57836): chunk number= 5 time=1617861140.1479013
+
+('127.0.0.1', 57836) download completed.
+
+Requested download 34 times
+
+Average response time: 0.6717593459522023
+
+Peer connect: addr=('127.0.0.1', 57844)
+
+32MB-9.txt send to ('127.0.0.1', 57844): chunk number= 9 time=1617861140.2751489
+
+('127.0.0.1', 57844) download completed.
+
+Requested download 35 times
+
+Average response time: 0.6561668940952846
+
+Peer connect: addr=('127.0.0.1', 57852)
+
+32MB-9.txt send to ('127.0.0.1', 57852): chunk number= 13 time=1617861140.3823197
+
+('127.0.0.1', 57852) download completed.
+
+Requested download 36 times
+
+Average response time: 0.6408695512347751
+
+Peer connect: addr=('127.0.0.1', 57860)
+
+32MB-10.txt send to ('127.0.0.1', 57860): chunk number= 1 time=1617861143.787365
+
+('127.0.0.1', 57860) download completed.
+
+Requested download 37 times
+
+Average response time: 0.6912381777892241
+
+Peer connect: addr=('127.0.0.1', 57868)
+
+32MB-10.txt send to ('127.0.0.1', 57868): chunk number= 5 time=1617861143.9111729
+
+('127.0.0.1', 57868) download completed.
+
+Requested download 38 times
+
+Average response time: 0.6762712440992656
+
+Peer connect: addr=('127.0.0.1', 57876)
+
+32MB-10.txt send to ('127.0.0.1', 57876): chunk number= 9 time=1617861144.044202
+
+('127.0.0.1', 57876) download completed.
+
+Requested download 39 times
+
+Average response time: 0.6623030625856839
+
+Peer connect: addr=('127.0.0.1', 57884)
+
+32MB-10.txt send to ('127.0.0.1', 57884): chunk number= 13 time=1617861144.1799765
+
+('127.0.0.1', 57884) download completed.
+
+Requested download 40 times
+
+Average response time: 0.6490975737571716
+

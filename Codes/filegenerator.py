@@ -5,13 +5,14 @@ import os
 TMB=2097152
 EMB=8388608
 STMB=16777216
+TTMB=33554432
 
 #directories=input("Enter direcotry: ")
 #directories = list(directories.split(" "))
 directories = ['p1']
 #filesize=input("Filesizes in bytes: ")
 #filesize=list(filesize.split(" "))
-filesize=['16777216']
+filesize=['33554432']
 #filenum=input("Number of files for each size: ")
 filenum = 10
 #useprefix=input("Use directory prefix for file name? [y/n]").lower()
@@ -27,6 +28,8 @@ for dir in directories:
                 size_str = '16MB'
             elif size == '2097152':
                 size_str='2MB'
+            elif size == '33554432':
+                size_str='32MB'
 
             if useprefix == 'y':
                 filename= dir+'-'+size_str+'-'+str(num+1)+'.txt'
