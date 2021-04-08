@@ -1,0 +1,11 @@
+(DONE) (1) Implement parallel file transfer from different node (2 hrs):
+- Requester send download request along with start offset and chunk size (64KB)
+- 10 chunks from 2 nodes should success (give default chunk size as at least 1MB)
+- implement with threads
+
+
+(DONE) (2) Test with 2 peer nodes (1 hr)
+
+(DONE) (3) write test and generate data (1.5 hr)
+
+(4) write reports (2 hrs)

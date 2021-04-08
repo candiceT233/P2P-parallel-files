@@ -1,0 +1,325 @@
+===================== Peer 2 Logging Start =====================
+
+
+Your peer Binded: host=127.0.1.1, port=60002
+
+Peer connect: addr=('127.0.0.1', 39954)
+
+('127.0.0.1', 39954) download completed: file=16MB-1.txt chunk_number=1 time=1617840755.2356198
+
+Peer disconnected: ('127.0.0.1', 39954)
+
+Average sending time 0.09196209907531738
+
+Peer connect: addr=('127.0.0.1', 39958)
+
+('127.0.0.1', 39958) download completed: file=16MB-1.txt chunk_number=3 time=1617840755.4466953
+
+Peer disconnected: ('127.0.0.1', 39958)
+
+Average sending time 0.1300640106201172
+
+Peer connect: addr=('127.0.0.1', 39962)
+
+('127.0.0.1', 39962) download completed: file=16MB-1.txt chunk_number=5 time=1617840755.6574714
+
+Peer disconnected: ('127.0.0.1', 39962)
+
+Average sending time 0.1338636875152588
+
+Peer connect: addr=('127.0.0.1', 39966)
+
+('127.0.0.1', 39966) download completed: file=16MB-1.txt chunk_number=7 time=1617840755.7743626
+
+Peer disconnected: ('127.0.0.1', 39966)
+
+Average sending time 0.11382842063903809
+
+Peer connect: addr=('127.0.0.1', 39972)
+
+('127.0.0.1', 39972) download completed: file=16MB-2.txt chunk_number=1 time=1617840758.0434384
+
+Peer disconnected: ('127.0.0.1', 39972)
+
+Average sending time 0.11102919578552246
+
+Peer connect: addr=('127.0.0.1', 39974)
+
+('127.0.0.1', 39974) download completed: file=16MB-2.txt chunk_number=3 time=1617840758.253233
+
+Peer disconnected: ('127.0.0.1', 39974)
+
+Average sending time 0.11387117703755696
+
+Peer connect: addr=('127.0.0.1', 39978)
+
+('127.0.0.1', 39978) download completed: file=16MB-2.txt chunk_number=5 time=1617840758.3803978
+
+Peer disconnected: ('127.0.0.1', 39978)
+
+Average sending time 0.10628090585981097
+
+Peer connect: addr=('127.0.0.1', 39982)
+
+('127.0.0.1', 39982) download completed: file=16MB-2.txt chunk_number=7 time=1617840758.4457092
+
+Peer disconnected: ('127.0.0.1', 39982)
+
+Average sending time 0.09794989228248596
+
+Peer connect: addr=('127.0.0.1', 39988)
+
+('127.0.0.1', 39988) download completed: file=16MB-3.txt chunk_number=1 time=1617840760.6708436
+
+Peer disconnected: ('127.0.0.1', 39988)
+
+Average sending time 0.09972940550910102
+
+Peer connect: addr=('127.0.0.1', 39994)
+
+('127.0.0.1', 39994) download completed: file=16MB-3.txt chunk_number=3 time=1617840760.8626795
+
+Peer disconnected: ('127.0.0.1', 39994)
+
+Average sending time 0.10286920070648194
+
+Peer connect: addr=('127.0.0.1', 39996)
+
+('127.0.0.1', 39996) download completed: file=16MB-3.txt chunk_number=5 time=1617840760.9817202
+
+Peer disconnected: ('127.0.0.1', 39996)
+
+Average sending time 0.09823120724071156
+
+Peer connect: addr=('127.0.0.1', 40000)
+
+('127.0.0.1', 40000) download completed: file=16MB-3.txt chunk_number=7 time=1617840761.0701168
+
+Peer disconnected: ('127.0.0.1', 40000)
+
+Average sending time 0.09578438599904378
+
+Peer connect: addr=('127.0.0.1', 40004)
+
+('127.0.0.1', 40004) download completed: file=16MB-4.txt chunk_number=1 time=1617840763.4507747
+
+Peer disconnected: ('127.0.0.1', 40004)
+
+Average sending time 0.10745180570162259
+
+Peer connect: addr=('127.0.0.1', 40008)
+
+('127.0.0.1', 40008) download completed: file=16MB-4.txt chunk_number=3 time=1617840763.800346
+
+Peer disconnected: ('127.0.0.1', 40008)
+
+Average sending time 0.11118858201163155
+
+Peer connect: addr=('127.0.0.1', 40012)
+
+('127.0.0.1', 40012) download completed: file=16MB-4.txt chunk_number=5 time=1617840763.9122255
+
+Peer disconnected: ('127.0.0.1', 40012)
+
+Average sending time 0.11074509620666503
+
+Peer connect: addr=('127.0.0.1', 40016)
+
+('127.0.0.1', 40016) download completed: file=16MB-4.txt chunk_number=7 time=1617840764.0167634
+
+Peer disconnected: ('127.0.0.1', 40016)
+
+Average sending time 0.10857681930065155
+
+Peer connect: addr=('127.0.0.1', 40018)
+
+('127.0.0.1', 40018) download completed: file=16MB-5.txt chunk_number=1 time=1617840766.3383987
+
+Peer disconnected: ('127.0.0.1', 40018)
+
+Average sending time 0.10940282485064338
+
+Peer connect: addr=('127.0.0.1', 40024)
+
+('127.0.0.1', 40024) download completed: file=16MB-5.txt chunk_number=3 time=1617840766.5442798
+
+Peer disconnected: ('127.0.0.1', 40024)
+
+Average sending time 0.10914546913570827
+
+Peer connect: addr=('127.0.0.1', 40028)
+
+('127.0.0.1', 40028) download completed: file=16MB-5.txt chunk_number=5 time=1617840766.7281508
+
+Peer disconnected: ('127.0.0.1', 40028)
+
+Average sending time 0.1116494755995901
+
+Peer connect: addr=('127.0.0.1', 40032)
+
+('127.0.0.1', 40032) download completed: file=16MB-5.txt chunk_number=7 time=1617840766.9746926
+
+Peer disconnected: ('127.0.0.1', 40032)
+
+Average sending time 0.11568893194198608
+
+Peer connect: addr=('127.0.0.1', 40036)
+
+('127.0.0.1', 40036) download completed: file=16MB-6.txt chunk_number=1 time=1617840769.2962253
+
+Peer disconnected: ('127.0.0.1', 40036)
+
+Average sending time 0.11607778640020461
+
+Peer connect: addr=('127.0.0.1', 40040)
+
+('127.0.0.1', 40040) download completed: file=16MB-6.txt chunk_number=3 time=1617840769.4763858
+
+Peer disconnected: ('127.0.0.1', 40040)
+
+Average sending time 0.11618316173553467
+
+Peer connect: addr=('127.0.0.1', 40044)
+
+('127.0.0.1', 40044) download completed: file=16MB-6.txt chunk_number=5 time=1617840769.643176
+
+Peer disconnected: ('127.0.0.1', 40044)
+
+Average sending time 0.11728351012520168
+
+Peer connect: addr=('127.0.0.1', 40046)
+
+('127.0.0.1', 40046) download completed: file=16MB-6.txt chunk_number=7 time=1617840769.759927
+
+Peer disconnected: ('127.0.0.1', 40046)
+
+Average sending time 0.11603916684786479
+
+Peer connect: addr=('127.0.0.1', 40050)
+
+('127.0.0.1', 40050) download completed: file=16MB-7.txt chunk_number=1 time=1617840771.9497764
+
+Peer disconnected: ('127.0.0.1', 40050)
+
+Average sending time 0.11525986671447754
+
+Peer connect: addr=('127.0.0.1', 40056)
+
+('127.0.0.1', 40056) download completed: file=16MB-7.txt chunk_number=3 time=1617840772.2543652
+
+Peer disconnected: ('127.0.0.1', 40056)
+
+Average sending time 0.12046217001401462
+
+Peer connect: addr=('127.0.0.1', 40060)
+
+('127.0.0.1', 40060) download completed: file=16MB-7.txt chunk_number=5 time=1617840772.4747858
+
+Peer disconnected: ('127.0.0.1', 40060)
+
+Average sending time 0.11987788588912399
+
+Peer connect: addr=('127.0.0.1', 40064)
+
+('127.0.0.1', 40064) download completed: file=16MB-7.txt chunk_number=7 time=1617840772.5665617
+
+Peer disconnected: ('127.0.0.1', 40064)
+
+Average sending time 0.11855804068701607
+
+Peer connect: addr=('127.0.0.1', 40070)
+
+('127.0.0.1', 40070) download completed: file=16MB-8.txt chunk_number=1 time=1617840774.9457893
+
+Peer disconnected: ('127.0.0.1', 40070)
+
+Average sending time 0.12100202461768841
+
+Peer connect: addr=('127.0.0.1', 40072)
+
+('127.0.0.1', 40072) download completed: file=16MB-8.txt chunk_number=3 time=1617840775.1096947
+
+Peer disconnected: ('127.0.0.1', 40072)
+
+Average sending time 0.12204671700795491
+
+Peer connect: addr=('127.0.0.1', 40076)
+
+('127.0.0.1', 40076) download completed: file=16MB-8.txt chunk_number=5 time=1617840775.3612077
+
+Peer disconnected: ('127.0.0.1', 40076)
+
+Average sending time 0.12542763063984533
+
+Peer connect: addr=('127.0.0.1', 40080)
+
+('127.0.0.1', 40080) download completed: file=16MB-8.txt chunk_number=7 time=1617840775.5525353
+
+Peer disconnected: ('127.0.0.1', 40080)
+
+Average sending time 0.12711412459611893
+
+Peer connect: addr=('127.0.0.1', 40084)
+
+('127.0.0.1', 40084) download completed: file=16MB-9.txt chunk_number=1 time=1617840777.8445363
+
+Peer disconnected: ('127.0.0.1', 40084)
+
+Average sending time 0.12619057568636807
+
+Peer connect: addr=('127.0.0.1', 40088)
+
+('127.0.0.1', 40088) download completed: file=16MB-9.txt chunk_number=3 time=1617840778.0710576
+
+Peer disconnected: ('127.0.0.1', 40088)
+
+Average sending time 0.1265802874284632
+
+Peer connect: addr=('127.0.0.1', 40092)
+
+('127.0.0.1', 40092) download completed: file=16MB-9.txt chunk_number=5 time=1617840778.2040606
+
+Peer disconnected: ('127.0.0.1', 40092)
+
+Average sending time 0.12628329140799385
+
+Peer connect: addr=('127.0.0.1', 40096)
+
+('127.0.0.1', 40096) download completed: file=16MB-9.txt chunk_number=7 time=1617840778.2857459
+
+Peer disconnected: ('127.0.0.1', 40096)
+
+Average sending time 0.12386371029747857
+
+Peer connect: addr=('127.0.0.1', 40100)
+
+('127.0.0.1', 40100) download completed: file=16MB-10.txt chunk_number=1 time=1617840780.536312
+
+Peer disconnected: ('127.0.0.1', 40100)
+
+Average sending time 0.12311112558519519
+
+Peer connect: addr=('127.0.0.1', 40104)
+
+('127.0.0.1', 40104) download completed: file=16MB-10.txt chunk_number=3 time=1617840780.7388208
+
+Peer disconnected: ('127.0.0.1', 40104)
+
+Average sending time 0.1235300992664538
+
+Peer connect: addr=('127.0.0.1', 40108)
+
+('127.0.0.1', 40108) download completed: file=16MB-10.txt chunk_number=5 time=1617840780.9033213
+
+Peer disconnected: ('127.0.0.1', 40108)
+
+Average sending time 0.12384291184254181
+
+Peer connect: addr=('127.0.0.1', 40112)
+
+('127.0.0.1', 40112) download completed: file=16MB-10.txt chunk_number=7 time=1617840780.942463
+
+Peer disconnected: ('127.0.0.1', 40112)
+
+Average sending time 0.12145254015922546
+

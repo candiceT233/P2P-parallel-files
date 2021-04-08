@@ -1,0 +1,80 @@
+===================== Server Logging Start =====================
+
+Peer accept to Server: addr=60000
+
+Peer accept to Server: addr=('127.0.0.1', 49762)
+
+Peer ('127.0.0.1', 49762) registered with files: {'16MB-9.txt': 16777216, '16MB-6.txt': 16777216, '16MB-7.txt': 16777216, '16MB-10.txt': 16777216, '16MB-5.txt': 16777216, '16MB-8.txt': 16777216, '16MB-2.txt': 16777216, '16MB-4.txt': 16777216, '16MB-1.txt': 16777216, '16MB-3.txt': 16777216}
+
+Peer accept to Server: addr=('127.0.0.1', 49764)
+
+Peer ('127.0.0.1', 49764) registered with files: {'16MB-9.txt': 16777216, '16MB-6.txt': 16777216, '16MB-7.txt': 16777216, '16MB-10.txt': 16777216, '16MB-5.txt': 16777216, '16MB-8.txt': 16777216, '16MB-2.txt': 16777216, '16MB-4.txt': 16777216, '16MB-1.txt': 16777216, '16MB-3.txt': 16777216}
+
+Peer accept to Server: addr=('127.0.0.1', 49766)
+
+Peer ('127.0.0.1', 49766) registered with files: {}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-1.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-2.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-3.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216, '16MB-3.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-4.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216, '16MB-3.txt': 16777216, '16MB-4.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-5.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216, '16MB-3.txt': 16777216, '16MB-4.txt': 16777216, '16MB-5.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-6.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216, '16MB-3.txt': 16777216, '16MB-4.txt': 16777216, '16MB-5.txt': 16777216, '16MB-6.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-7.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216, '16MB-3.txt': 16777216, '16MB-4.txt': 16777216, '16MB-5.txt': 16777216, '16MB-6.txt': 16777216, '16MB-7.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-8.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216, '16MB-3.txt': 16777216, '16MB-4.txt': 16777216, '16MB-5.txt': 16777216, '16MB-6.txt': 16777216, '16MB-7.txt': 16777216, '16MB-8.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-9.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216, '16MB-3.txt': 16777216, '16MB-4.txt': 16777216, '16MB-5.txt': 16777216, '16MB-6.txt': 16777216, '16MB-7.txt': 16777216, '16MB-8.txt': 16777216, '16MB-9.txt': 16777216}
+
+('127.0.0.1', 49766) requested DOWNLOAD files: 16MB-10.txt
+
+Peers address with requested files given to ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) files updated {'16MB-1.txt': 16777216, '16MB-2.txt': 16777216, '16MB-3.txt': 16777216, '16MB-4.txt': 16777216, '16MB-5.txt': 16777216, '16MB-6.txt': 16777216, '16MB-7.txt': 16777216, '16MB-8.txt': 16777216, '16MB-9.txt': 16777216, '16MB-10.txt': 16777216}
+
+Unregistering ('127.0.0.1', 49766)
+
+('127.0.0.1', 49766) Exited
+

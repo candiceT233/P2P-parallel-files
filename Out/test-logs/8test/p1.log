@@ -1,0 +1,31 @@
+===================== Peer 1 Logging Start =====================
+You are now registered at server.
+
+Your peer is binded: host=127.0.1.1, port=60001
+
+File downloaded: 16MB-1.txt
+
+File downloaded: 16MB-2.txt
+
+File downloaded: 16MB-3.txt
+
+File downloaded: 16MB-4.txt
+
+File downloaded: 16MB-5.txt
+
+File downloaded: 16MB-6.txt
+
+File downloaded: 16MB-7.txt
+
+File downloaded: 16MB-8.txt
+
+File downloaded: 16MB-9.txt
+
+File downloaded: 16MB-10.txt
+
+p1 unregistering from server
+Downloaded from peer 10 times
+
+Average download time 2.2787173986434937
+
+p1 unregistered and exiting...

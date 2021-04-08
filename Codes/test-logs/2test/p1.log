@@ -1,0 +1,53 @@
+===================== Peer 1 Logging Start =====================
+
+
+Your peer Binded: host=127.0.1.1, port=60001
+
+File downloaded: 16MB-1.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-2.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-3.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-4.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-5.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-6.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-7.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-8.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-9.txt
+
+Updating my file list to index server...
+
+File downloaded: 16MB-10.txt
+
+Updating my file list to index server...
+
+p1 unregistering from server
+
+Downloaded from peer 10 times
+
+Average download time 2.8062453508377074
+
+p1 unregistered and exiting...
+
