@@ -34,11 +34,9 @@ MENU= """================= MENU =================
 5. Sleep for 10 second (act as server only)
 ========================================\n"""
 
-#targetpeer[id], file, filesize, filecontent
 def downloadThread(peer, filename, filesize, chunkID, filecontent):
     try:
         c_host, c_port = peer
-
         newc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         newc.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
@@ -48,7 +46,6 @@ def downloadThread(peer, filename, filesize, chunkID, filecontent):
         newc.sendall(pickle.dumps(message))
 
         data = []
-
         while True:
             newc.settimeout(15)
             packet = newc.recv(BUFFER)
@@ -64,21 +61,14 @@ def downloadThread(peer, filename, filesize, chunkID, filecontent):
             filecontent.update({recvID:[recvHash, content[2]]})
         else:
             filecontent.update({recvID:content[1]})
-
-        #logger.info(f"received content= {filecontent}")
-
     except:
         logger.exception('Got exception on downloadThread')
         logger.error(f"Error: c_host={c_host} c_port={c_port}")
         logger.exception(traceback.print_exc())
 
-
 def donwload(p_client,my_dir,my_host,s_port):
     try:
-
-        #myFiles = os.listdir(my_dir);
         file=input("Enter one file name you want to download:")
-
         message = ['DOWNLOAD',(my_host,s_port),file]
         p_client.sendall(pickle.dumps(message))
         data = p_client.recv(BUFFER) # [filesize, [available_peers]]
@@ -96,7 +86,6 @@ def donwload(p_client,my_dir,my_host,s_port):
                 count+=1
                 time.sleep(0.5)
         """
-
         if not msg:
             return 'No peers'
 
@@ -106,22 +95,17 @@ def donwload(p_client,my_dir,my_host,s_port):
         targetpeer = []
         threads=[]
 
-        #print("filesize=",filesize)
         chunknum = math.ceil(filesize/CHUNKSIZE)
         chunkid = list(range(chunknum))
-
-        #print("chunkid=",chunkid)
 
         for id in chunkid:
             index = id%numpeer
             targetpeer.append(peerlist[index])
 
         filecontent = {}
-
         dl_st = time.time()
         if peerlist:
             for id in chunkid:
-
                 newthread = threading.Thread(target=downloadThread,
                 args=(targetpeer[id], file, filesize, id, filecontent))
                 newthread.start()
@@ -131,7 +115,6 @@ def donwload(p_client,my_dir,my_host,s_port):
             t.join()
 
         recv_hash = 0
-
         f=open(f'{my_dir}/{file}','w')
 
         for id in chunkid:
@@ -140,18 +123,14 @@ def donwload(p_client,my_dir,my_host,s_port):
                 f.write(filecontent[id][1])
             else:
                 f.write(filecontent[id])
-
         f.close()
 
         f=open(f'{my_dir}/{file}','r')
-
         my_hash = hashlib.md5(f.read().encode())
         my_hash = my_hash.digest() # in byte format
         f.close()
-        #logger.info(f"myhash={my_hash}\nrecvHash={recv_hash}")
 
         if recv_hash == my_hash: # compare hash
-            # store file to local directory
             logger.info(f"File downloaded: {file}\n")
             downloadtime.append(time.time()-dl_st)
             print(f"File downloaded: {file}")
@@ -161,16 +140,12 @@ def donwload(p_client,my_dir,my_host,s_port):
             print(f"Download Failed: {file}")
 
         return 'FINISHED'
-        # Handle peer closing connection?
     except Exception as e:
         logger.exception('Got exception on delete')
         logger.exception(traceback.print_exc())
 
-
-
 def delete(my_dir):
     try:
-        #myFiles = os.listdir(my_dir)
         removed=[]
         print(f"Your current files: {myFiles}")
         files=input("File name(s) you want to delete seperated by space:")
@@ -193,11 +168,10 @@ def delete(my_dir):
         logger.exception('Got exception on delete')
         logger.exception(traceback.print_exc())
 
-# listen on other peer's connection
+# listen on other 's connection
 def MyServerThread(conn, addr, my_dir):
 
     try:
-
         logger.info(f"Peer connect: addr={addr}\n")
         print(f"Peer connect: addr={addr}");
 
@@ -220,13 +194,11 @@ def MyServerThread(conn, addr, my_dir):
                 filehash = filehash.digest()
                 f.seek(offset,0)
                 content = f.read(csize)
-                # packet
                 # content = [chunkID, hashcode, filecontent]
                 packet.append(chunkID)
                 if chunkID == 0:
                     packet.append(filehash)
                 packet.append(content)
-                #logger.info(f"packet={packet}\n\n")
                 #packet[chunkID, filehash, content]
                 conn.sendall(pickle.dumps(packet))
                 sendtime.append(time.time() - send_st)
@@ -248,7 +220,6 @@ def MyServerThread(conn, addr, my_dir):
         logger.exception('Got exception on MyServerThread')
         logger.exception(traceback.print_exc())
 
-
 def MyServerStart(my_host, s_port, my_dir):
     try:
         # server socket object
@@ -258,11 +229,10 @@ def MyServerStart(my_host, s_port, my_dir):
         logger.info(f"Your peer is binded: host={my_host}, port={s_port}\n")
         print(f"Your peer is binded: host={my_host}, port={s_port}")
 
-        p_server.listen() # default 5 backlog
+        p_server.listen()
         print(f"Your peer is listening on {my_host}...")
         serverthreads=[]
         while True:
-
             conn, addr = p_server.accept()
             with ThreadPoolExecutor(max_workers=os.cpu_count()+10) as executor:
                 future = executor.submit(MyServerThread, conn, addr, my_dir)
@@ -284,7 +254,6 @@ def MyClientStart(p_client, my_host, s_port, myID):
             fsize = os.path.getsize(f'{my_dir}{file}')
             myFiles[file] = fsize
 
-        #print("myFiles before register=",myFiles)
         myEntry = ['REGISTER',(my_host,s_port), myFiles]
         p_client.sendall(pickle.dumps(myEntry));
         print(f"Registering my file list to index server...")
@@ -299,7 +268,6 @@ def MyClientStart(p_client, my_host, s_port, myID):
             s_thread.start()
 
             while True:
-
                 print(MENU);
                 choice = input("Please choose an operation:")
                 # run user method to download files
@@ -329,7 +297,6 @@ def MyClientStart(p_client, my_host, s_port, myID):
 
                 elif choice == '2': #Download file\n
                     if donwload(p_client,my_dir,my_host,s_port) != 'FINISHED':
-                        # update my file list
                         print("Please retry download.")
                     else:
 
@@ -351,10 +318,10 @@ def MyClientStart(p_client, my_host, s_port, myID):
 
                 elif choice == '4': #quit
                     counter = 0
-                    while threading.activeCount() >2:
-                        logger.info(f"Current thread counts: {threading.activeCount()}\n")
+                    while threading.activeCount() >2 and counter <5:
+                        logger.info(f"Current thread counts: {threading.activeCount()}\nRetry exit in 1 second\n")
                         counter +=1
-                        time.sleep(0.5)
+                        time.sleep(5)
 
                     msg = ['UNREGISTER',(my_host,s_port)]
                     p_client.sendall(pickle.dumps(msg))
@@ -420,14 +387,12 @@ def main(myID):
         is_host, is_port = get_server_config() # index server info
         # setup config
         my_host, my_port = set_my_config(myID, is_host, is_port)
-
         # client socket object
         p_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         p_client.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         print("Connecting server...")
         p_client.connect((is_host,is_port))
         status = MyClientStart(p_client, my_host, my_port, myID)
-        # Handle 'NOTREGISTER'
 
     except Exception as e:
         logger.exception('Got exception on main()')
