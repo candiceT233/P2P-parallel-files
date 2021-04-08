@@ -8,6 +8,7 @@ fi
 
 
 testPeer=$1
+filename="32MB"
 
 dir="$testPeer"test-"$(date +%s%N | cut -b1-13)"
 #dir="$testPeer"test
@@ -18,7 +19,7 @@ waitsec=$(($testPeer + 8))
 cleanup(){
   pkill -f peer.py
   pkill -f indexserver.py
-  rm -r p1/32MB*.txt
+  rm -r p1/${filename}*.txt
   rm -r logs/*
   sudo sync
   sudo echo "3" | sudo tee /proc/sys/vm/drop_caches
@@ -28,25 +29,25 @@ startp1(){
 python3 peer.py << INPUTONE
 1
 2
-32MB-1.txt
+${filename}-1.txt
 2
-32MB-2.txt
+${filename}-2.txt
 2
-32MB-3.txt
+${filename}-3.txt
 2
-32MB-4.txt
+${filename}-4.txt
 2
-32MB-5.txt
+${filename}-5.txt
 2
-32MB-6.txt
+${filename}-6.txt
 2
-32MB-7.txt
+${filename}-7.txt
 2
-32MB-8.txt
+${filename}-8.txt
 2
-32MB-9.txt
+${filename}-9.txt
 2
-32MB-10.txt
+${filename}-10.txt
 4
 INPUTONE
 }
@@ -85,29 +86,29 @@ sleep $waitsec
 python3 peer.py << INPUTONE
 1
 2
-32MB-1.txt
+${filename}-1.txt
 2
-32MB-2.txt
+${filename}-2.txt
 2
-32MB-3.txt
+${filename}-3.txt
 2
-32MB-4.txt
+${filename}-4.txt
 2
-32MB-5.txt
+${filename}-5.txt
 2
-32MB-6.txt
+${filename}-6.txt
 2
-32MB-7.txt
+${filename}-7.txt
 2
-32MB-8.txt
+${filename}-8.txt
 2
-32MB-9.txt
+${filename}-9.txt
 2
-32MB-10.txt
+${filename}-10.txt
 4
 INPUTONE
 
-#sleep 5
+
 pkill -f peer.py
 pkill -f indexserver.py
 pkill -f runpeer.sh

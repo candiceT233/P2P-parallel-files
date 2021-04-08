@@ -22,6 +22,7 @@ CONFIG_DIR = 'configs/'
 BUFFER=4096
 ACK=128
 CHUNKSIZE = 2097152 # 2MB
+TIMEOUT=60
 downloadtime=[]
 sendtime=[]
 myFiles = {}
@@ -47,7 +48,7 @@ def downloadThread(peer, filename, filesize, chunkID, filecontent):
 
         data = []
         while True:
-            newc.settimeout(15)
+            newc.settimeout(TIMEOUT)
             packet = newc.recv(BUFFER)
             if not packet: break
             data.append(packet)
